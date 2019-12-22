@@ -6101,6 +6101,31 @@ Metric Code Size 5664</description>
 <wire x1="-3.75" y1="-2.75" x2="3.75" y2="-2.75" width="0.127" layer="51"/>
 <wire x1="3.75" y1="-2.75" x2="3.75" y2="-1.45" width="0.127" layer="51"/>
 </package>
+<package name="SOT23">
+<smd name="C" x="0" y="1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="E" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="B" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<wire x1="-1.4" y1="0.6" x2="-0.6" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-0.6" x2="0.4" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0.6" x2="1.4" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="0.6" x2="-1.4" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.6" x2="1.4" y2="-0.3" width="0.127" layer="21"/>
+<text x="-3.048" y="1.651" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.794" y="-2.921" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="2DC-0415D200">
+<smd name="2" x="6.75" y="6.5" dx="7" dy="5" layer="1"/>
+<smd name="3" x="6.75" y="-6.5" dx="7" dy="5" layer="1"/>
+<hole x="3.5" y="2.5" drill="2.2"/>
+<hole x="3.5" y="-2.5" drill="2.2"/>
+<wire x1="0" y1="4.5" x2="0" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="0" y1="4.5" x2="14.5" y2="4.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-4.5" x2="14.5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="14.5" y1="-4.5" x2="14.5" y2="4.5" width="0.127" layer="21"/>
+<smd name="1" x="15.65" y="-0.63" dx="6.1" dy="3.8" layer="1"/>
+<text x="3" y="10" size="1.27" layer="25">&gt;NAME</text>
+<text x="3" y="-11" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIL16" urn="urn:adsk.eagle:package:922/2" type="model">
@@ -6437,6 +6462,55 @@ FT231X
 <pin name="SHIELD" x="10.16" y="-10.16" visible="pin" length="middle" rot="R180"/>
 <text x="-9.144" y="8.128" size="1.778" layer="95">&gt;NAME</text>
 <text x="-8.89" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="NPN">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+<symbol name="DC_JACK_2DC0005D100">
+<description>2DC-0005D100
+SINGATRON ENTERPRISE CO., LTD
+http://akizukidenshi.com/download/2DC-0005D100.pdf</description>
+<wire x1="2.54" y1="2.54" x2="2.032" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-2.54" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.016" x2="-3.302" y2="-2.54" width="0.1524" layer="94"/>
+<text x="-5.08" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="-2.54"/>
+<vertex x="-0.508" y="-1.27"/>
+<vertex x="0.508" y="-1.27"/>
+</polygon>
+<wire x1="2.032" y1="3.302" x2="1.524" y2="3.302" width="0.254" layer="94"/>
+<wire x1="1.524" y1="3.302" x2="1.524" y2="3.048" width="0.254" layer="94"/>
+<wire x1="1.524" y1="3.048" x2="1.524" y2="2.032" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.032" x2="1.524" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.524" y1="1.778" x2="2.032" y2="1.778" width="0.254" layer="94"/>
+<wire x1="2.032" y1="1.778" x2="2.032" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="3.048" x2="-2.794" y2="2.032" width="0.254" layer="94" curve="180"/>
+<wire x1="-2.794" y1="3.048" x2="1.524" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="2.032" x2="1.524" y2="2.032" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9056,6 +9130,52 @@ Source: http://akizukidenshi.com/download/TD62083AP.pdf</description>
 </connects>
 <technologies>
 <technology name="R-AB-5P"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMSS8050" prefix="Q">
+<description>Bipolar (BJT) Transistor NPN 25V 1.5A 100MHz 625mW Surface Mount SOT-23</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name="-H">
+<attribute name="DIGIKEY_URL" value="https://www.digikey.jp/product-detail/ja/micro-commercial-co/MMSS8550-H-TP/MMSS8550-H-TPMSCT-ND/2825949" constant="no"/>
+<attribute name="MARUTSU_URL" value="https://www.marutsu.co.jp/pc/i/15861858/" constant="no"/>
+<attribute name="STORE" value="MARUTSU" constant="no"/>
+<attribute name="URL" value="https://www.marutsu.co.jp/pc/i/15861858/" constant="no"/>
+</technology>
+<technology name="-L">
+<attribute name="DIGIKEY_URL" value="https://www.digikey.jp/product-detail/ja/micro-commercial-co/MMSS8050-L-TP/MMSS8050-L-TPMSCT-ND/2827203" constant="no"/>
+<attribute name="MARUTSU_URL" value="https://www.marutsu.co.jp/pc/i/15861860/" constant="no"/>
+<attribute name="STORE" value="MARUTSU" constant="no"/>
+<attribute name="URL" value="https://www.marutsu.co.jp/pc/i/15861860/" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2DC-0415D200" prefix="J">
+<gates>
+<gate name="G$1" symbol="DC_JACK_2DC0005D100" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2DC-0415D200">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

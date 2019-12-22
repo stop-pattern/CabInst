@@ -5155,6 +5155,55 @@ FT231X
 <label x="119.38" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="SER" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO12"/>
+<wire x1="35.56" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
+<label x="27.94" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="G" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO14"/>
+<wire x1="25.4" y1="63.5" x2="35.56" y2="63.5" width="0.1524" layer="91"/>
+<label x="27.94" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RCK" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO27"/>
+<wire x1="35.56" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
+<label x="27.94" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCK" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO33"/>
+<wire x1="35.56" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<label x="27.94" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCL" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO32"/>
+<wire x1="25.4" y1="76.2" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
+<label x="27.94" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DAC_2" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO26"/>
+<wire x1="35.56" y1="68.58" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
+<label x="25.4" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DAC_1" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO25"/>
+<wire x1="25.4" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
+<label x="25.4" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
