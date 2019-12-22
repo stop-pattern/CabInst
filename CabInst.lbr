@@ -6126,6 +6126,73 @@ Metric Code Size 5664</description>
 <text x="3" y="10" size="1.27" layer="25">&gt;NAME</text>
 <text x="3" y="-11" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="B8B-PH-SM4-TB">
+<description>&lt;b&gt;B8B-PH-SM4-TB&lt;/b&gt;&lt;br&gt;</description>
+<circle x="5.195" y="-3.067" radius="0.205640625" width="0.4" layer="25"/>
+<wire x1="-13" y1="4.725" x2="7" y2="4.725" width="0.2" layer="51"/>
+<wire x1="7" y1="4.725" x2="7" y2="-0.275" width="0.2" layer="51"/>
+<wire x1="7" y1="-0.275" x2="-13" y2="-0.275" width="0.2" layer="51"/>
+<wire x1="-13" y1="-0.275" x2="-13" y2="4.725" width="0.2" layer="51"/>
+<wire x1="7" y1="-0.275" x2="4.782" y2="-0.275" width="0.2" layer="21"/>
+<wire x1="-13" y1="4.725" x2="7" y2="4.725" width="0.2" layer="21"/>
+<wire x1="-13" y1="-0.275" x2="-10.908" y2="-0.275" width="0.2" layer="21"/>
+<smd name="1" x="4" y="0" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="2" y="0" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="0" y="0" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="4" x="-2" y="0" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="5" x="-4" y="0" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="6" x="-6" y="0" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="7" x="-8" y="0" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="8" x="-10" y="0" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="9" x="-12.45" y="2.2" dx="3.1" dy="1.7" layer="1" rot="R90"/>
+<smd name="10" x="6.45" y="2.2" dx="3.1" dy="1.7" layer="1" rot="R90"/>
+<text x="-1.432" y="3.068" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-1.432" y="3.068" size="1.27" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="B2B-PH-SM4-TB">
+<description>&lt;b&gt;B2B-PH-SM4-TB&lt;/b&gt;&lt;br&gt;</description>
+<wire x1="-3.975" y1="0.3" x2="3.975" y2="0.3" width="0.254" layer="51"/>
+<wire x1="3.975" y1="0.3" x2="3.975" y2="-4.7" width="0.254" layer="51"/>
+<wire x1="3.975" y1="-4.7" x2="-3.975" y2="-4.7" width="0.254" layer="51"/>
+<wire x1="-3.975" y1="-4.7" x2="-3.975" y2="0.3" width="0.254" layer="51"/>
+<wire x1="-3.975" y1="-4.7" x2="3.975" y2="-4.7" width="0.254" layer="21"/>
+<wire x1="3.975" y1="-4.7" x2="3.975" y2="-4.064" width="0.254" layer="21"/>
+<wire x1="-3.975" y1="-4.7" x2="-3.975" y2="-4.064" width="0.254" layer="21"/>
+<wire x1="-3.975" y1="0.3" x2="-1.778" y2="0.3" width="0.254" layer="21"/>
+<wire x1="3.975" y1="0.3" x2="1.778" y2="0.3" width="0.254" layer="21"/>
+<wire x1="-3.975" y1="0.3" x2="-3.975" y2="-0.254" width="0.254" layer="21"/>
+<wire x1="3.975" y1="0.3" x2="3.975" y2="-0.254" width="0.254" layer="21"/>
+<smd name="1" x="-1" y="0" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="1" y="0" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="-3.4" y="-2.2" dx="3" dy="1.6" layer="1" rot="R90"/>
+<smd name="4" x="3.4" y="-2.2" dx="3" dy="1.6" layer="1" rot="R90"/>
+<text x="-1" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-1" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="SOT230P700X180-4N">
+<description>&lt;b&gt;KC-3 (SOT-223)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="3.15" y="-2.3" dx="1.75" dy="0.95" layer="1" rot="R180"/>
+<smd name="2" x="3.15" y="0" dx="1.75" dy="0.95" layer="1" rot="R180"/>
+<smd name="3" x="3.15" y="2.3" dx="1.75" dy="0.95" layer="1" rot="R180"/>
+<smd name="4" x="-3.15" y="0" dx="3.2" dy="1.75" layer="1" rot="R270"/>
+<text x="6.35" y="0" size="1.27" layer="25" rot="R90" align="center">&gt;NAME</text>
+<text x="5.08" y="0" size="1.27" layer="27" rot="R90" align="center">&gt;VALUE</text>
+<wire x1="4.275" y1="-3.5" x2="-4.275" y2="-3.5" width="0.05" layer="51"/>
+<wire x1="-4.275" y1="-3.5" x2="-4.275" y2="3.5" width="0.05" layer="51"/>
+<wire x1="-4.275" y1="3.5" x2="4.275" y2="3.5" width="0.05" layer="51"/>
+<wire x1="4.275" y1="3.5" x2="4.275" y2="-3.5" width="0.05" layer="51"/>
+<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-0.95" x2="-0.55" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="1.925" y1="-3.25" x2="-1.925" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="-1.925" y1="-3.25" x2="-1.925" y2="3.25" width="0.2" layer="21"/>
+<wire x1="-1.925" y1="3.25" x2="1.925" y2="3.25" width="0.2" layer="21"/>
+<wire x1="1.925" y1="3.25" x2="1.925" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="4.025" y1="-3.125" x2="2.275" y2="-3.125" width="0.2" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIL16" urn="urn:adsk.eagle:package:922/2" type="model">
@@ -6511,6 +6578,44 @@ http://akizukidenshi.com/download/2DC-0005D100.pdf</description>
 <wire x1="-2.794" y1="3.048" x2="-2.794" y2="2.032" width="0.254" layer="94" curve="180"/>
 <wire x1="-2.794" y1="3.048" x2="1.524" y2="3.048" width="0.254" layer="94"/>
 <wire x1="-2.794" y1="2.032" x2="1.524" y2="2.032" width="0.254" layer="94"/>
+</symbol>
+<symbol name="B8B-PH-SM4-TB(LF)(SN)">
+<wire x1="5.08" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<text x="11.43" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="11.43" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="S1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="S2" x="0" y="-2.54" visible="pad" length="middle"/>
+<pin name="S3" x="0" y="-5.08" visible="pad" length="middle"/>
+<pin name="S4" x="0" y="-7.62" visible="pad" length="middle"/>
+<pin name="S5" x="0" y="-10.16" visible="pad" length="middle"/>
+<pin name="S6" x="0" y="-12.7" visible="pad" length="middle"/>
+<pin name="S7" x="0" y="-15.24" visible="pad" length="middle"/>
+<pin name="S8" x="0" y="-17.78" visible="pad" length="middle"/>
+</symbol>
+<symbol name="B2B-PH-SM4-TB(LF)(SN)">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="S1" x="7.62" y="7.62" visible="pad" length="middle" rot="R270"/>
+<pin name="S2" x="12.7" y="7.62" visible="pad" length="middle" rot="R270"/>
+</symbol>
+<symbol name="ADP3338AKCZ-3.3RL7">
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-10.16" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<text x="21.59" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="21.59" y="2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="IN" x="-5.08" y="-5.08" length="middle" direction="in"/>
+<pin name="OUT" x="25.4" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="10.16" y="-15.24" length="middle" direction="pwr" rot="R90"/>
+<pin name="OUT_1" x="25.4" y="-7.62" length="middle" direction="out" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9176,6 +9281,86 @@ Source: http://akizukidenshi.com/download/TD62083AP.pdf</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B8B-PH-SM4-TB(LF)(SN)" prefix="J">
+<description>&lt;b&gt;PH SMT top entry shrouded header 8 way JST PH Series, 2mm Pitch 8 Way 1 Row Straight PCB Header, Solder Termination, 2A&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://uk.rs-online.com/web/p/products/1667263"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B8B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B8B-PH-SM4-TB">
+<connects>
+<connect gate="G$1" pin="S1" pad="1"/>
+<connect gate="G$1" pin="S2" pad="2"/>
+<connect gate="G$1" pin="S3" pad="3"/>
+<connect gate="G$1" pin="S4" pad="4"/>
+<connect gate="G$1" pin="S5" pad="5"/>
+<connect gate="G$1" pin="S6" pad="6"/>
+<connect gate="G$1" pin="S7" pad="7"/>
+<connect gate="G$1" pin="S8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="PH SMT top entry shrouded header 8 way JST PH Series, 2mm Pitch 8 Way 1 Row Straight PCB Header, Solder Termination, 2A" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B8B-PH-SM4-TB(LF)(SN)" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="1667263" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B2B-PH-SM4-TB(LF)(SN)" prefix="J">
+<description>&lt;b&gt;Wire-To-Board Connector, PH Series, 2 Contacts, Header, 2 mm, Surface Mount, 1 Rows&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://uk.rs-online.com/web/p/products/6881325P"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B2B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B2B-PH-SM4-TB">
+<connects>
+<connect gate="G$1" pin="S1" pad="1"/>
+<connect gate="G$1" pin="S2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Wire-To-Board Connector, PH Series, 2 Contacts, Header, 2 mm, Surface Mount, 1 Rows" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B2B-PH-SM4-TB(LF)(SN)" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="6881325P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADP3338AKCZ-3.3RL7" prefix="U">
+<description>&lt;b&gt;LDO Regulator 3.3V 1.6A Analog Devices ADP3338AKCZ-3.3RL7, LDO Voltage Regulator, 1.6A, 3.3 V 0.8%, 2.7  8 Vin, 4-Pin SOT-223&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://uk.rs-online.com/web/p/products/9126350"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ADP3338AKCZ-3.3RL7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT230P700X180-4N">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="OUT_1" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="LDO Regulator 3.3V 1.6A Analog Devices ADP3338AKCZ-3.3RL7, LDO Voltage Regulator, 1.6A, 3.3 V 0.8%, 2.7  8 Vin, 4-Pin SOT-223" constant="no"/>
+<attribute name="HEIGHT" value="1.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Analog Devices" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ADP3338AKCZ-3.3RL7" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="9126350" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
